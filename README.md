@@ -36,49 +36,49 @@ For this code:
 The output is:
 
 
-   array(1) {
-      ["Simple"]=>
-      object(PHPClass)#5 (8) {
-        ["parentName":protected]=>
-        NULL
-        ["isAbstract":protected]=>
-        bool(false)
-        ["methods":protected]=>
-        array(1) {
-          ["hello"]=>
-          object(PHPClassMethod)#7 (7) {
-            ["visibility":"PHPClassMethod":private]=>
+       array(1) {
+          ["Simple"]=>
+          object(PHPClass)#5 (8) {
+            ["parentName":protected]=>
+            NULL
+            ["isAbstract":protected]=>
             bool(false)
-            ["isStatic":"PHPClassMethod":private]=>
-            bool(false)
+            ["methods":protected]=>
+            array(1) {
+              ["hello"]=>
+              object(PHPClassMethod)#7 (7) {
+                ["visibility":"PHPClassMethod":private]=>
+                bool(false)
+                ["isStatic":"PHPClassMethod":private]=>
+                bool(false)
+                ["name":protected]=>
+                string(5) "hello"
+                ["line":protected]=>
+                NULL
+                ["file":protected]=>
+                NULL
+                ["position":protected]=>
+                NULL
+                ["source":protected]=>
+                NULL
+              }
+            }
             ["name":protected]=>
-            string(5) "hello"
+            string(6) "Simple"
             ["line":protected]=>
             NULL
             ["file":protected]=>
             NULL
             ["position":protected]=>
-            NULL
+            object(LanguageElementPosition)#6 (2) {
+              ["file":"LanguageElementPosition":private]=>
+              string(55) "/media/jozsefvaros/www/yee/parseproject/simpleclass.php"
+              ["line":"LanguageElementPosition":private]=>
+              int(0)
+            }
             ["source":protected]=>
             NULL
           }
-        }
-        ["name":protected]=>
-        string(6) "Simple"
-        ["line":protected]=>
-        NULL
-        ["file":protected]=>
-        NULL
-        ["position":protected]=>
-        object(LanguageElementPosition)#6 (2) {
-          ["file":"LanguageElementPosition":private]=>
-          string(55) "/media/jozsefvaros/www/yee/parseproject/simpleclass.php"
-          ["line":"LanguageElementPosition":private]=>
-          int(0)
-        }
-        ["source":protected]=>
-        NULL
-      }
 
 
 
