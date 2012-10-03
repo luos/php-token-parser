@@ -59,7 +59,7 @@
 				 
 						if ( $token != T_WHITESPACE )
 							{ 
-					        switch ($token[0])
+					        switch ($token_val)
 					            {
 					            case T_CURLY_OPEN:
 					            case '{':
